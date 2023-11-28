@@ -1,0 +1,18 @@
+name: Add Issue to Project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  addIssueToProject:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to project
+        uses: Volumetrics-io/internal-automation-actions@v1
+        with:
+          # Add any necessary inputs if your action requires them
+          # For instance, project ID or other configurations
+          projectId: ${{ secrets.PROJECT_ID }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
