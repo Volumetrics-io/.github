@@ -1,0 +1,19 @@
+name: Add PR to Project
+
+on:
+  pr:
+    types: [opened]
+
+jobs:
+  addPRToProject:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add pr to project
+        uses: Volumetrics-io/internal-automation-actions@v1
+        with:
+          # Add any necessary inputs if your action requires them
+          # For instance, project ID or other configurations
+          projectId: ${{ secrets.PROJECT_ID }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
