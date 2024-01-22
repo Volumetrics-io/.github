@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Welcome to Volumetrics, some useful repos:
+Welcome to Volumetrics ~
 
 Important links:
 - [create](https://create.mrjs.io/) - Create something using our api!
