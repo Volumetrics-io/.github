@@ -2,6 +2,12 @@
 
 Welcome to Volumetrics ~
 
+VOLU.DEV:
+- [![app.volu.dev vis](https://img.shields.io/badge/app.volu.dev-caffff)](https://app.volu.dev) - the VOLU app itself for use in headset that pairs with the vscode extension
+- [![demo.volu.dev vis](https://img.shields.io/badge/demo.volu.dev-ffc6ff)](https://demo.volu.dev) - demo site to try out our VOLU product!
+- [volu.dev](https://volu.dev) - informational landing page about what we're building
+- [VSCODE EXTENSION](https://marketplace.visualstudio.com/items?itemName=Volumetrics.volumetrics) - FREE vscode extension on the marketplace
+
 Important links:
 - [Creation Sandbox](https://docs.mrjs.io/create/) - Create something using our api!
 - [MRjs landing page / demos](https://mrjs.io/) - Our one stop shop for 'about mrjs' with high def curated and community created demos :D
